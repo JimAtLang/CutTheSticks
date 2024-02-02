@@ -1,7 +1,9 @@
 import java.util.ArrayList;
 
 public class CutTheSticks {
-    public int cut(ArrayList<Integer> sticks){
-        return 0;
+    public ArrayList<Integer> cut(ArrayList<Integer> sticks){
+        ArrayList<Integer> rtrn = new ArrayList<>();
+
+        return rtrn;
     }
 }
