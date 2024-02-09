@@ -14,5 +14,7 @@ public class Main {
         for(int i=0;i<numSticks; i++){
             sticks.add(sc.nextInt());
         }
+        CutTheSticks cts = new CutTheSticks();
+        cts.cut(sticks);
     }
 }
