@@ -6,8 +6,8 @@ public class CutTheSticks {
         int numSticks = sticks.size();
         int shortest = sticks.get(index:0);
         for(int stick:sticks){
-            if(shortest<stick){
-                stick = shortest;
+            if(shortest>stick){
+                shortest = stick;
             }
         }
         System.out.println("The shortest stick is + ")
